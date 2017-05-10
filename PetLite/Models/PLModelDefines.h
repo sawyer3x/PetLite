@@ -6,8 +6,19 @@
 //  Copyright © 2017年 sawyer3x. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef PetMarginMerchant_PetModelDefines_h
+#define PetMarginMerchant_PetModelDefines_h
 
-@interface PLModelDefines : NSObject
+typedef NS_ENUM(NSUInteger, PhoneCheckState) {
+    kPhoneStateFormatError = 0,                     // 号码格式错误
+    kPhoneStateNoPassword,                          // 密码未设置
+    kPhoneStateNoRegister,                          // 尚未注册
+};
 
-@end
+typedef NS_ENUM(NSInteger, PLLoadingType) {
+    kPLLoadingFullScreen = 0,
+    kPLLoadingWithoutNav = 1,
+    kPLLoadingWithoutNavAndTabbar = 2
+};
+
+#endif

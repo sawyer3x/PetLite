@@ -10,4 +10,14 @@
 
 @interface PLGModel : NSObject
 
+@property (nonatomic, strong) PLUserInfo *userInfo;
+
+@property (nonatomic, strong) NSString *accessToken;
+
+@property (nonatomic, strong) NSString *userId;
+
+@property (nonatomic, strong) NSMutableArray *loadingArrayManage;
+
++ (PLGModel *)sharePLGModel;
+
 @end

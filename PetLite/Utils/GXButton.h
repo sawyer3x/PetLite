@@ -10,4 +10,8 @@
 
 @interface GXButton : UIButton
 
++ (UIButton *)setButton:(UIButton *)btn withTitle:(NSString *)title;
+
++ (UIButton *)withBtnImage:(NSString *)btnImage frame: (CGRect)frame andImageAndLabelText:(NSString *)bntLabelText AlsoDeatilText:(NSString *)detail;
+
 @end

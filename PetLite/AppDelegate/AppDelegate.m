@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "MainTabBarViewController.h"
 
+#import <CoreLocation/CoreLocation.h>
 @interface AppDelegate ()
 
 @property (nonatomic, strong) MainTabBarViewController *tableBarVC;

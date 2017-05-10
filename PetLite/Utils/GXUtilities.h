@@ -36,4 +36,22 @@
  */
 +(void) showView:(UIView *) view;
 
+
+/**
+ *  显示网络加载
+ *
+ */
++ (void)showLoding;
+
++ (void)showLodingToucheEnabled:(BOOL)enabled;
+
++ (void)hideLoding;
+
+
++(void) showNetErrorView;
+
++(void) showNetErrorView:(NSString *) strMgs;
+
++(void) showNetErrorView:(NSString *) strMgs attrString:(NSAttributedString *) AttrStr;
+
 @end

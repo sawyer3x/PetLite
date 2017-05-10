@@ -19,16 +19,16 @@
 #endif
 
 typedef NS_ENUM(NSInteger, PLServiceStatus) {
-    kPetServiceStatusNormal = 0,                            // 正常返回
-    kPetServiceStatusBusinessError = 1,                     // 业务错误
+    kPLServiceStatusNormal = 0,                            // 正常返回
+    kPLServiceStatusBusinessError = 1,                     // 业务错误
     //    kPetServiceStatusLogicError = 2,                        // 內部逻辑错误，如出现此处错误 应联系后台
     //    kPetServiceStatusAuthorizeError = 10,                   // 未授权
     //    kPetServiceStatusAccessDeniedError = 11,                // 访问拒绝(非法访问, 比如非手机客户端访问)
     //    kPetServiceStatusVersionLowerError = 20,                // 版本过低
-    kPetServiceStatusDataEmpty = 300,                       // 接口数据为空
-    kPetServiceStatusJSONDataError,                         // 接口数据JSON格式错误
-    kPetServiceStatusNotModified = 304,                     // 304 数据无修改
-    kPetServiceStatusOther                                  // 其他错误
+    kPLServiceStatusDataEmpty = 300,                       // 接口数据为空
+    kPLServiceStatusJSONDataError,                         // 接口数据JSON格式错误
+    kPLServiceStatusNotModified = 304,                     // 304 数据无修改
+    kPLServiceStatusOther                                  // 其他错误
 };
 
 /**

@@ -10,4 +10,6 @@
 
 @interface PLLoadingView : UIView
 
+@property (nonatomic, strong) UIImageView *animationImageView;
+
 @end
