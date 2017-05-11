@@ -49,7 +49,7 @@
 @property (nonatomic, strong) NSString *praiseCnt;//点赞数
 @property (nonatomic, strong) NSString *activeTime;//活跃时间
 
-@property (nonatomic, strong) NSArray <PetPetInfo> *petList;
+//@property (nonatomic, strong) NSArray <PetPetInfo> *petList;
 
 @property (nonatomic, strong) NSArray * userAlbum;
 
